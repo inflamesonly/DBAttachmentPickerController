@@ -106,8 +106,8 @@ static NSString *const kPhotoCellIdentifier = @"DBThumbnailPhotoCellID";
                 buttonTitle = NSLocalizedString(@"Take a picture or a video", @"Button on main menu");
                 break;
         }
-        UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:buttonTitle style:UIAlertActionStyleDefault handler:takePictureHandler];
-        [controller addAction:cameraAction];
+//        UIAlertAction *cameraAction = [UIAlertAction actionWithTitle:buttonTitle style:UIAlertActionStyleDefault handler:takePictureHandler];
+//        [controller addAction:cameraAction];
     }
     
     if (allowsOtherApps) {
